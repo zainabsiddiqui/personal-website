@@ -47,10 +47,11 @@ a:active {
 }
 
 .boxed {
-	border: 0.5px solid #DAA520;
+	border: 0.5px solid #B22222;
 	display: inline;
 	padding: 6px;
-	background: #FFD700;
+	background: #B22222;
+	color: white;
 }
 
 .boxed a {
