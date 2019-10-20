@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+	padding: 7% 20% 7% 20%;
+	font-family: 'Segoe UI', sans serif;
+	color: #383838;
+}
+
+.name-header {
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 25px;
+	text-transform: lowercase;
+
+}
+
+.pathway {
+	text-transform: none;
+	padding: 0 0 3% 0;
+}
+
+.pathway p a:link, .pathway p a:visited, .pathway p a:hover, .pathway p a:active {
+	text-decoration: none;
+}
+
+.content p {
+	line-height: 2px;
+}
+
+.content {
+	padding: 3% 0 0 0;
+}
+
+a:link {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+a:active {
+    color: inherit;
+}
+
+.boxed {
+	border: 0.5px solid #DAA520;
+	display: inline;
+	padding: 6px;
+	background: #FFD700;
+}
+
+.boxed a {
+	text-decoration: none;
+}
+
+.split-para {
+	display: block;
+}
+
+.split-para span {
+	display: block;
+	float: right;
+}
