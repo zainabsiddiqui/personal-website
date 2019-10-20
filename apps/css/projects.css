@@ -1,0 +1,134 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', sans serif;
+	/*color: #383838;*/
+	background-color: #DCDCDC;
+}
+
+
+.container {
+    width: 100%;
+    height: 200px;
+/*    background: aqua;*/
+	margin: auto;
+/*    padding: 10px;
+*/}
+.one {
+    width: 25%;
+    height: 100vh;
+    background: #3CA55C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+    float: left;
+}
+
+
+.two {
+    margin-left: 25%;
+    height: 200px;
+}
+
+header {
+	/*background: #ff4b1f;   fallback for old browsers */
+	/*background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to right, #ff9068, #ff4b1f);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 120px;
+}
+.name-header {
+	padding: 0 5% 0 5%;
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 1px;
+}
+
+.description {
+	margin-top: 4%;
+	padding: 0 5% 0 5%;
+	font-size: 15px;
+}
+
+
+a:link {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: #DAA520;
+}
+
+a:active {
+    color: inherit;
+}
+
+
+.pathway {
+	text-transform: none;
+	color: #2E8B57;
+/*	padding: 0 0 3% 0;
+*/}
+
+.pathway p a:link, .pathway p a:visited, .pathway p a:hover, .pathway p a:active {
+	text-decoration: none;
+}
+
+.first-proj, .second-proj {
+	display: inline-block;
+  /*	background: url("../images/rmo.png") no-repeat center;
+  	background-size: contain;*/
+  	width: 40%;
+  	height: 300px;
+  	margin-right: 2%;
+}
+
+.first-proj, .second-proj {
+  display: inline-block;
+  position: relative;
+/*  padding: 0.5em;
+*/  background: #fff;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+}
+.text {
+  background: rgba(255,255,255,0.8);
+  border-radius: 2%;
+  color: black;
+  transition: opacity .5s;
+  opacity: 0;
+  position: absolute;
+  top: 1em; bottom: 1em; left: 1em; right: 1em;
+  /*display: flex;*/
+ /*justify-content: center;*/
+  /*align-items: center;*/
+  padding: 1em;
+  text-align: center;
+}
+
+.first-proj:hover .text {
+  opacity: 1;
+}
+
+.second-proj:hover .text {
+  opacity: 1;
+}
+
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.links {
+	margin: 0 auto;
+	border-radius: 2%;
+}
+
+a {
+	text-decoration: none;
+}
